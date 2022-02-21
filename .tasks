@@ -1,0 +1,29 @@
+# vim: set fenc=utf-8 ft=dosini:
+
+[melos-bootstrap]
+command=melos bootstrap
+cwd=<root>
+output=quickfix
+errorformat=%f:%l:%m
+save=1
+
+[melos-clean]
+command=melos clean
+cwd=<root>
+output=quickfix
+errorformat=%f:%l:%m
+save=1
+
+[test-asgard]
+command=melos run test:asgard
+cwd=<root>
+output=quickfix
+errorformat=%f:%l:%m
+save=1
+
+[test-asgard_core]
+command=melos run test:asgard_core
+cwd=<root>
+output=quickfix
+errorformat=%f:%l:%m
+save=1
